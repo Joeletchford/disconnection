@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
+
+	<main class="cf w-100">
+	  <div class="fl vh-100 w-100 w-50-ns">
+	    <div class="white h-100">
+				<h1 itemprop="name headline">{{ page.title }}</h1>
+	    </div>
+	  </div>
+		<div class="fl vh-100 w-100 w-50-ns">
+			<div class="h-100 w-100 overflow-scroll">
+			<div class="bg-black">
+			    {{ content }}
+			</div>
+			</div>
+
+</article>
+
+
+
+
+
+
+
+
+<!-- <article itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header>
+    <h1 itemprop="name headline">{{ page.title }}</h1>
+    <p><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+  </header>
+
+  <div itemprop="articleBody">
+    {{ content }}
+  </div>
+
+</article> -->

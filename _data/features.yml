@@ -1,0 +1,13 @@
+# - name: Functional CSS
+#   description: "Front-end code is categorically bad and I think you should write less of it. If you're building websites for a living and still writing CSS all the damn time, welcome 2 the future."
+#   icon: images/functional.svg
+
+
+
+- icon: images/01.jpg
+-  icon: images/02.jpg
+-  icon: images/03.jpg
+-  icon: images/04.jpg
+-  icon: images/05.jpg
+-  icon: images/06.jpg
+-  icon: images/07.jpg

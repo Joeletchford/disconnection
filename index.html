@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<main class="cf w-100">
+  <div class="fl vh-50 w-100 w-50-ns">
+    <div class="black bg-white h-100">
+			this
+    </div>
+  </div>
+	<div class="fl vh-50 w-100 w-50-ns">
+		<div class="dt  h-100 w-100">
+		<div class="dtc v-mid bg-black">
+				<p class="f3 tc founders-reg ttu tracked">visons of <br> jagged <br> horizons</p>
+		</div>
+		</div>
+	</div>
+	<div class="fl vh-50 w-100 w-50-ns">
+		<div class="bg-black h-100 overflow-scroll">
+			<ul class="list">
+{% for post in site.posts %}
+<li class="w-100 founders-reg f5 pa3">
+	<a class="no-underline link dim white" href="{{ post.url }}">{{ post.title }}</a>
+</li>
+	 {% endfor %}
+	 		</ul>
+
+		</div>
+	</div>
+
+	<div class="fl w-100 w-50-ns ">
+		<div class="vh-50-ns absolute overflow-scroll">
+			{% for feature in site.data.features %}
+				<img class="w-100" src="{{ feature.icon }}">
+					  {% endfor %}
+		</div>
+	</div>
+</main>
+
+
+
+
+
+
+
+<!-- Loop over _data/features.yml -->
+<!-- <div class="ma4 ma5-ns">
+  {% for feature in site.data.features %}
+  <div class="w-33-l pr4 mb5 fl-l mt4 cf-4th p-fix">
+    <img class="w2" src="{{ feature.icon }}">
+    <h2 class="normal">{{ feature.name }}</h2>
+    <p class="lh-copy f5">{{ feature.description }}</p>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="ma4 ma5-ns">
+  <p class="lh-copy f4 cf">* This very list of features was created by looping over a .yml file and applying styles from Tachyons.css in less than 10 lines of code. Fork the <a href="" class="link white bb pb1">Jekyons repo</a> and check out the _data directory to see how it works.</p>
+</div> -->

@@ -1,0 +1,50 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:400,700";
+.roboto {
+  font-family: "Roboto";
+  letter-spacing: .05em; }
+
+@font-face {
+  font-family: 'gill-facia-dis';
+  src: url("css/GillFaciaMTStd-RegDisplay.woff"); }
+.gill-dis {
+  font-family: "gill-facia-dis";
+  letter-spacing: .05em; }
+
+@font-face {
+  font-family: 'gill-facia-reg';
+  src: url("css/FoundersGroteskText-Regular.woff"); }
+.gill-reg {
+  font-family: "gill-facia-reg";
+  letter-spacing: .05em; }
+
+@font-face {
+  font-family: "founders-reg";
+  src: url("css/FoundersGroteskText-Regular.woff"); }
+.found-reg {
+  font-family: "founders-reg";
+  letter-spacing: .05em; }
+
+@font-face {
+  font-family: 'founders-light';
+  src: url("css/FoundersGroteskText-Light.woff"); }
+.found-light {
+  font-family: "founders-light";
+  letter-spacing: .05em; }
+
+@font-face {
+  font-family: 'ogg-ital';
+  src: url("css/Ogg Italic.woff"); }
+.ogg-ital {
+  font-family: "ogg-ital";
+  letter-spacing: .05em; }
+
+.cf {
+  clear: both; }
+
+.cf-4th:nth-child(4n) {
+  margin-right: 0;
+  clear: both; }
+
+.p-fix:nth-child(3n) {
+  padding-right: 0;
+  margin-right: 0; }
